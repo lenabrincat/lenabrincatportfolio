@@ -614,9 +614,9 @@ body {
 }
 
 .spoty-img-2 {
-  width: 90%;
+  width: 33%;
   margin-top: -55%;
-  margin-left: 30%;
+  margin-left: 50%;
 }
 
 .spoty-img {
@@ -627,6 +627,7 @@ body {
 .spoty-img-3 {
   width: 30%;
   margin-left: 18%;
+  margin-top: 10%;
 }
 
 .bar3 {
