@@ -449,6 +449,7 @@ body {
   flex-direction: column;
   margin-left: 6%;
   width: 100%;
+  z-index: 1;
 }
 
 .BP-coaching-url-1 a {
