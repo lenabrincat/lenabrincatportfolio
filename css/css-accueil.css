@@ -210,16 +210,6 @@ body {
   color: #bd0010;
 }
 
-.dismoi-right-line {
-  display: flex;
-  flex-direction: row;
-  content: "";
-  margin-left: -30%;
-  margin-top: 19%;
-  width: 1px;
-  height: 20%;
-  background-color: black;
-}
 
 .dismoi-date {
   margin-bottom: 0%;
