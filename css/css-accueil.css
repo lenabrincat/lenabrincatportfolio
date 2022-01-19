@@ -554,16 +554,12 @@
   flex-direction: column;
   margin-left: 73%;
   margin-top: -17%;
-  width: 100%;
+  background-color: var(--primary-color);
   z-index: 1;
+  padding: 1em;
 }
 
 .spoty-url-1 a {
-  background-color: var(--primary-color);
-  padding-top: 1.5%;
-  padding-bottom: 2.5%;
-  padding-right: 0.5%;
-  padding-left: 0.5%;
   font-size: 1.4vw;
   font-weight: 600;
   color: #000000;
@@ -813,9 +809,8 @@
 }
 
 .fastnight-img img {
-  width: 200%;
+  width: 100%;
   float: right;
-  margin-right: -47%;
   margin-top: -15%;
 }
 
