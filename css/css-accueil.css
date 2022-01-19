@@ -550,6 +550,7 @@
 }
 
 .spoty-url {
+  width: fit-content;
   display: flex;
   flex-direction: column;
   margin-left: 60%;
