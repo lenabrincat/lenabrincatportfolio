@@ -146,8 +146,16 @@
 .portfolio-4 {
   text-transform: uppercase;
   font-size: 3.4722222222222223vw;
-  margin-top: 25%;
+  margin-top: 20%;
   margin-left: 48%;
+}
+
+.portfolio-5{
+  text-transform: uppercase;
+  font-size: 3.4722222222222223vw;
+  margin-top: -5%;
+  margin-left: 48%;
+  width: 100%;
 }
 
 /* -------- DISMOI -------- */
