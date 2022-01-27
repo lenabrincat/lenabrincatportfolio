@@ -1075,3 +1075,8 @@
   font-weight: 600;
   color: var(--primary-color);
 }
+
+.contactlinkedin{
+  text-decoration: none;
+  color: #000000;
+}
