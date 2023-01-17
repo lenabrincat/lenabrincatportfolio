@@ -3,6 +3,11 @@
 .container {
   background-image: url(../image/background.png);
   background-repeat: repeat;
+  cursor: url("../image/cursor1.svg"), auto;
+}
+
+a{
+  cursor: url("../image/cursor2.svg"), auto;
 }
 
 /* Presentation */
