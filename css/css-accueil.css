@@ -463,22 +463,24 @@ b{
 }
 
 .BP-coaching-url-1 a {
-  background-color: var(--primary-color);
-  padding-top: 2.5%;
+  background-color:transparent;
+	border-radius:47px;
+	border:2px solid var(--primary-color) ;
+  padding-top: 3.5%;
   padding-bottom: 3.5%;
-  padding-right: 0.5%;
-  padding-left: 0.5%;
+  padding-right: 7%;
+  padding-left: 7%;
   font-size: 1.6vw;
   font-weight: 600;
   color: #000000;
+  text-decoration: none;
 }
 
-.BP-coaching-url-2 {
-  font-size: 1.6vw;
-  font-weight: 400;
-  margin-left: 7%;
-  margin-top: -0.5%;
+.BP-coaching-url-1 a:hover{
+  border-radius:80%;
+  transition: all .60s;
 }
+
 
 .BP-coaching-resume {
   display: flex;
@@ -558,6 +560,7 @@ b{
 
 .spoty-title {
   margin-left: 5%;
+  margin-top: -2%;
 }
 
 .spoty-title1 {
@@ -578,13 +581,24 @@ b{
 
 .spoty-url {
   width: fit-content;
-  display: flex;
-  flex-direction: column;
   margin-left: 60%;
   margin-top: -17%;
-  background-color: var(--primary-color);
   z-index: 1;
-  padding: 0.5%;
+  background-color:transparent;
+	border-radius:47px;
+	border:2px solid var(--primary-color) ;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  font-size: 1.6vw;
+  font-weight: 600;
+  color: #000000;
+}
+
+.spoty-url:hover{
+  border-radius:80%;
+  transition: all .60s;
 }
 
 .spoty-url-1 a {
@@ -592,6 +606,7 @@ b{
   font-weight: 600;
   color: #000000;
   z-index: 1;
+  text-decoration: none;
 }
 
 .spoty-url-2 {
@@ -960,14 +975,22 @@ b{
 }
 
 .fastnight-url-1 a {
-  background-color: var(--primary-color);
-  padding-top: 0.5%;
-  padding-bottom: 3.5%;
-  padding-right: 0.5%;
-  padding-left: 1%;
-  font-size: 1.4vw;
+  background-color:transparent;
+	border-radius:47px;
+	border:2px solid var(--primary-color) ;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  font-size: 1.6vw;
   font-weight: 600;
   color: #000000;
+  text-decoration: none;
+}
+
+.fastnight-url-1 a:hover{
+  border-radius:80%;
+  transition: all .60s;
 }
 
 .fastnight-url-2 {
