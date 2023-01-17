@@ -631,6 +631,109 @@
   margin-left: -5%;
 }
 
+/* TRIVIAL */
+
+.trivial {
+  margin-top: 6%;
+}
+
+.trivial-title1 {
+  margin-right: 4%;
+  font-size: 10vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.trivial-title2 {
+  overflow-x: hidden;
+  font-size: 20.8vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 8%;
+  margin-top: -13.5%;
+  color: var(--primary-color);
+  opacity: 0.05;
+}
+
+.trivial-align {
+  display: flex;
+  flex-direction: row;
+  margin-top: -8%;
+}
+
+.trivial-img{
+  width: 20%;
+  height: 20%;
+  margin-top: 20%;
+  margin-left: -5%;
+}
+
+.trivial-img-1{
+  width: 20%;
+  height: 20%;
+  margin-left: 5%;
+}
+
+
+
+.trivial-resume {
+  display: flex;
+  flex-direction: column;
+}
+
+.trivial-img-2{
+  width: 40%;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.trivial-text {
+  width: 80%;
+  font-size: 1.6vw;
+  font-weight: 400;
+  margin-top: -7%;
+}
+
+.trivial-date{
+  font-size: 3vw;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-left: 68%;
+}
+
+
+.trivial-save{
+  font-size: 3vw;
+  font-weight: 600;
+  margin-left: 10%;
+  margin-right: 38%;
+  margin-top: 10%;
+  padding: 5%;
+  border-width:2px;
+  border-style:solid;
+  border-radius: 70%;
+  border-color:var(--primary-color);
+}
+
+.trivial-text span {
+  color: var(--primary-color);
+}
+
+.website {
+  width: 35%;
+  margin-left: 20%;
+  filter: drop-shadow(4px 4px 6px #0000006c);
+}
+
+
+
+.group {
+  margin-left: 65%;
+  margin-top: -2%;
+  width: 30%;
+}
+
 /* A LA MANIERE DE */
 
 .graphisme {
