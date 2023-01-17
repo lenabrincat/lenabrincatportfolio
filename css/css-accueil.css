@@ -44,6 +44,10 @@ a{
   font-size: 1.7361111111111112vw;
 }
 
+b{
+  font-weight: 500;
+}
+
 .presentation-contact a {
   text-decoration: none;
   color: #000000;
@@ -141,24 +145,34 @@ a{
 
 .portfolio-3 {
   margin-left: 77%;
-  margin-top: 0%;
+  margin-top: 10%;
   font-size: 2.4305555555555554vw;
   text-transform: uppercase;
   white-space: nowrap;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.portfolio-3a{
+  margin-left: 77%;
+  margin-top: -4%;
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 400;
 }
 
 .portfolio-4 {
   text-transform: uppercase;
-  font-size: 3.4722222222222223vw;
-  margin-top: 20%;
+  font-size: 2.3vw;
+  margin-top: 10%;
   margin-left: 48%;
+  white-space: nowrap;
 }
 
 .portfolio-5{
   text-transform: uppercase;
-  font-size: 3vw;
-  margin-top: -5%;
+  font-size: 2.3vw;
+  margin-top: -3%;
   margin-left: 48%;
   
 }
@@ -592,6 +606,7 @@ a{
   font-size: 6.6vw;
   font-weight: 600;
   color: var(--primary-color);
+  margin-top: -10%;
 }
 
 .spoty-resume {
