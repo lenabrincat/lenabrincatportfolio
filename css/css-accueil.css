@@ -53,6 +53,10 @@ b{
   color: #000000;
 }
 
+.presentation-contact a:hover {
+  text-decoration: underline;
+}
+
 /* SUMMARY */
 
 .portfolio {
@@ -96,6 +100,11 @@ b{
   text-decoration: none;
   color: #000000;
 }
+
+.portfolio-left-title a:hover {
+  text-decoration: underline;
+}
+
 
 .portfolio-left-h2,
 .portfolio-left-h3 {
@@ -477,6 +486,11 @@ b{
   text-decoration: none;
 }
 
+.BP-coaching-url-1:hover {
+  text-decoration: underline;
+}
+
+
 .BP-coaching-url-1 a:hover{
   border-radius:80%;
   transition: all .60s;
@@ -600,6 +614,7 @@ b{
 .spoty-url:hover{
   border-radius:80%;
   transition: all .60s;
+  text-decoration: underline;
 }
 
 .spoty-url-1 a {
@@ -608,14 +623,6 @@ b{
   color: #000000;
   z-index: 1;
   text-decoration: none;
-}
-
-.spoty-url-2 {
-  font-size: 1.5vw;
-  font-weight: 400;
-  margin-left: 2.6%;
-  margin-top: -0.5%;
-  white-space: nowrap;
 }
 
 .spoty-date {
@@ -1097,6 +1104,7 @@ b{
 .fastnight-url-1 a:hover{
   border-radius:80%;
   transition: all .60s;
+  text-decoration: underline;
 }
 
 .fastnight-url-2 {
