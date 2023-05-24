@@ -6,6 +6,12 @@
   cursor: url("../image/cursor1.svg"), auto;
 }
 
+html {
+  background-image: url(../image/background.png);
+  background-repeat: repeat;
+  cursor: url("../image/cursor1.svg"), auto;
+}
+
 a{
   cursor: url("../image/cursor2.svg"), auto;
 }
@@ -90,8 +96,7 @@ b{
   display: flex;
   flex-direction: column;
   margin-left: 8%;
-  margin-top: 5%;
-  width: 30%;
+  width: 49%;
   font-size: 1.6666666666666667vw;
   text-transform: uppercase;
   z-index: 1;
@@ -1267,9 +1272,63 @@ b{
   background-color: black;
 }
 
+/* Flynt */
+
+
+.flynt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flynt-background p {
+  position: absolute;
+  margin-top: 9%;
+  margin-left: -10%;
+  font-size: 20.8vw;
+  font-weight: 600;
+  letter-spacing: 2pt;
+  color: var(--primary-color);
+  opacity: 0.05;
+  text-transform: uppercase;
+}
+
+.flynt-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.flynt-right-title {
+  margin-top: 25%;
+  margin-left: 30%;
+  font-size: 10vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.flynt-left-txt {
+  position: absolute;
+  margin-top: 25%;
+  margin-right: 40%;
+  right: 3%;
+  width: 45%;
+  font-size: 1.8vw;
+}
+
+.flynt-left-txt span {
+  color: var(--primary-color);
+}
+
+/* Thanks */
+
 .end {
   margin-top: 10%;
   text-align: center;
+}
+
+.arrow-back{
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 .end-title {
@@ -1295,7 +1354,7 @@ b{
 .bar5 {
   display: flex;
   flex-direction: row;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 7%;
 }
 
