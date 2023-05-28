@@ -16,6 +16,11 @@ a{
   cursor: url("../image/cursor2.svg"), auto;
 }
 
+span {
+  color: var(--primary-color);
+
+}
+
 /* Presentation */
 
 .presentation {
@@ -1275,32 +1280,33 @@ b{
 /* Flynt */
 
 
-.flynt {
+.flynt-title {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 10%;
+  
 }
 
 .flynt-background p {
-  position: absolute;
-  margin-top: 9%;
-  margin-left: -10%;
+  margin-left: 20%;
+  margin-top: 0%;
   font-size: 20.8vw;
   font-weight: 600;
   letter-spacing: 2pt;
   color: var(--primary-color);
   opacity: 0.05;
   text-transform: uppercase;
+  margin-bottom: 0%;
 }
 
-.flynt-right {
-  display: flex;
-  flex-direction: column;
+.flynt-right{
+  margin-right: 10%;
 }
+
 
 .flynt-right-title {
   margin-top: 25%;
-  margin-left: 30%;
   font-size: 10vw;
   font-weight: 600;
   text-transform: uppercase;
@@ -1318,6 +1324,183 @@ b{
 .flynt-left-txt span {
   color: var(--primary-color);
 }
+
+
+
+.architecture{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.architecture-explication{
+  font-size: 1.8vw;
+  padding-left: 5%;
+  padding-right: 10%;
+
+}
+
+.vue-macro{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.8vw;
+  margin-left: 6%;
+  margin-right: 10%;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.vue-macro-text{
+ margin-left: 5%;
+}
+
+.vue-userflow{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.8vw;
+  margin-left: 6%;
+  margin-right: 25%;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.vue-user-image{
+ margin-left: 5%;
+}
+
+.vue-user-image img{
+  width: 150%;
+}
+
+.vue-interface-text{
+  margin-left: 5%;
+ }
+ 
+ .vue-interface{
+   display: flex;
+   flex-direction: row;
+   font-size: 1.8vw;
+   margin-left: 6%;
+   margin-right: 10%;
+   margin-top: 5%;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+
+ .lowfidelity{
+  margin-left: 5%;
+  margin-top: 9%;
+ }
+
+.maquette1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.maquette1 img{
+  margin: 1%;
+}
+
+.maquette1 p{
+  margin-top: 7%;
+}
+
+.maquette2-3{
+  display: flex;
+  flex-direction: row;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.arrow-maquette3{
+  margin-top: 28%;
+}
+
+.arrow-maquette3 img{
+  margin-left: 60%;
+}
+
+.maquette2{
+  margin-right: 12%;
+}
+
+
+.lowfidelity-explication{
+  margin-top: 5%;
+  font-size: 1.8vw;
+  padding-right: 5%;
+  padding-left: 5%;
+
+}
+
+.highfidelity{
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+.highfidelity-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.highfidelity-text{
+  font-size: 1.8vw;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+.design-system{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.design-system p {
+  font-size: 1.8vw;
+  margin-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+}
+
+.design-system-img{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+
+
+.design-system-img1 img{
+  width: 330%;
+}
+
+.design-system-img2 {
+  margin-left: 20%;
+}
+
+
+.design-system-img3 img{
+  margin-left: 10%;
+  width: 80%;
+}
+
+.design-system-img4 img{
+  margin-top: 3%;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 8%;
+}
+
 
 /* Thanks */
 
